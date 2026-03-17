@@ -1,0 +1,4 @@
+# TypeScript build artifacts
+node_modules/
+dist/
+*.tsbuildinfo

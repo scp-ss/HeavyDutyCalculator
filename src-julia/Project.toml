@@ -1,0 +1,4 @@
+name = "MyJuliaApp"
+uuid = "00000000-0000-0000-0000-000000000000"
+authors = ["Your Name"]
+version = "0.1.0"
