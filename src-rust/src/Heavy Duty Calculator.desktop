@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=MyApp
+Comment=Polyglot app with C, C++, Rust, and Julia
+Exec=mycppbinary
+Icon=myapp
+Terminal=false
+Type=Application
+Categories=Utility;
+
+
