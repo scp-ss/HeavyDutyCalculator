@@ -1,0 +1,2 @@
+/usr/bin/ar qc libc_code.a CMakeFiles/c_code.dir/json.c.o
+/usr/bin/ranlib libc_code.a

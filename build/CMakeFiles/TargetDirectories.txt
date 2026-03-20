@@ -1,0 +1,8 @@
+/home/muizznasir/Desktop/HeavyDutyCalculator/build/CMakeFiles/edit_cache.dir
+/home/muizznasir/Desktop/HeavyDutyCalculator/build/CMakeFiles/rebuild_cache.dir
+/home/muizznasir/Desktop/HeavyDutyCalculator/build/src-c/CMakeFiles/c_code.dir
+/home/muizznasir/Desktop/HeavyDutyCalculator/build/src-c/CMakeFiles/edit_cache.dir
+/home/muizznasir/Desktop/HeavyDutyCalculator/build/src-c/CMakeFiles/rebuild_cache.dir
+/home/muizznasir/Desktop/HeavyDutyCalculator/build/src-cpp/CMakeFiles/cpp_code.dir
+/home/muizznasir/Desktop/HeavyDutyCalculator/build/src-cpp/CMakeFiles/edit_cache.dir
+/home/muizznasir/Desktop/HeavyDutyCalculator/build/src-cpp/CMakeFiles/rebuild_cache.dir

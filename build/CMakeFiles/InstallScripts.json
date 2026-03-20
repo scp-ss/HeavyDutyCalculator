@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/muizznasir/Desktop/HeavyDutyCalculator/build/cmake_install.cmake",
+		"/home/muizznasir/Desktop/HeavyDutyCalculator/build/src-c/cmake_install.cmake",
+		"/home/muizznasir/Desktop/HeavyDutyCalculator/build/src-cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

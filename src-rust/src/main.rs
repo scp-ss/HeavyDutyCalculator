@@ -1,4 +1,9 @@
-fn main() {
+/*fn main() {
+
+
+    let mut lessThan = false;
+    let mut greaterThan = false;
+    let mut equalTo = false;
     println!("Please enter your guess");
     let mut guess = String::new();
 
@@ -10,5 +15,19 @@ fn main() {
         .expect("Could not read input");
 
     println!("You guessed, {}", guess);
+    match guess.cmp(&random_num) {
+        std::cmp::Ordering::Less => {
+            println!("Too small")
+            lessThan = true
+            greaterThan = false
+            equalTo = false
+        }
+    }
 }
 // to_string()
+
+*/
+
+fn main() {
+    println!("Hellow rust from cargo ");
+}

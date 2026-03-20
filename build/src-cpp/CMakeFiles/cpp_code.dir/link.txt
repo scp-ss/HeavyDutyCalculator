@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcpp_code.a CMakeFiles/cpp_code.dir/ui.cpp.o
+/usr/bin/ranlib libcpp_code.a
