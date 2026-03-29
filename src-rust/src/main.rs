@@ -224,6 +224,7 @@ fn compound_data_types() {
     //11th indx of "mix_typles", whcih is a tubple it self, 2nd index of that tubple (which is an array), the 2nd index of that which is -3121
 
     // Slices:
+    let mut WAter: &str = "water";
 }
 /*
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!|--------------------|##################################################
