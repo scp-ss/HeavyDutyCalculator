@@ -1,5 +1,5 @@
 fn main() {
-    //guessing_game();
+    guessing_game();
     //primitive_data_types();
     compound_data_types();
 }
@@ -214,18 +214,21 @@ fn compound_data_types() {
         [0.1, 0.01, 0.001, 01.213, 0.4, 02.12, 0.2],
         ("water", 021, [32423, 2913, -3121], "b"),
     );
-    // this is max limit of number of elemetn, b4 u cant print it using debuggable format,
-    // u can have more elemnts but u owuld have to print it by dividing
-    // u techinally print it but u pwud have to usea custom struct or nest tuples or use array or vectors for collection
-    println!("{:?}", mix_tuples); //only print12
-    println!("The elemtn{}", (mix_tuples.11).2[2]);
-    //    (mix_tuples.9).8.6.7[8]
-
     //11th indx of "mix_typles", whcih is a tubple it self, 2nd index of that tubple (which is an array), the 2nd index of that which is -3121
+    println!("Water");
+    // pirnt1LN2();
+    // fn ()
+    // {
 
+    //}
     // Slices:
-    let mut WAter: &str = "water";
+    //let mut WAter: &str = "water";
+    //
+
+    // SCLICESSSS :P
+    // this is a very fuckass topic so uhhh stay tuned ig(for da fuck ass ness)
 }
+
 /*
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!|--------------------|##################################################
    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$|END END END END END |$$compoundDataTypse$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
