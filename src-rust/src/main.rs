@@ -1,5 +1,5 @@
 fn main() {
-    guessing_game();
+    //guessing_game();
     //primitive_data_types();
     compound_data_types();
 }
@@ -215,6 +215,17 @@ fn compound_data_types() {
         [0.1, 0.01, 0.001, 01.213, 0.4, 02.12, 0.2],
         ("water", 021, [32423, 2913, -3121], "b"),
     );
+    // this is max limit of number of elemetn, b4 u cant print it using debuggable format,
+    // u can have more elemnts but u owuld have to print it by dividing
+    // u techinally print it but u pwud have to usea custom struct or nest tuples or use array or vectors for collection
+    println!("{:?}", mix_tuples); //only print12
+    println!("The elemtn{}", (mix_tuples.11).2[2]);
+    //    (mix_tuples.9).8.6.7[8]
+
+    //11th indx of "mix_typles", whcih is a tubple it self, 2nd index of that tubple (which is an array), the 2nd index of that which is -3121
+
+    // Slices:
+    let mut WAter: &str = "water";
 
     //11th indx of "mix_typles", whcih is a tubple it self, 2nd index of that tubple (which is an array), the 2nd index of that which is -3121
     println!("Water");
@@ -244,7 +255,7 @@ fn compound_data_types() {
         &"ZEN".to_string(),
         &"Harry Potter".to_string(),
     ];
-    println!("Books Slcies = {:?}", books_slices)
+    println!("Books Slcies = {:?}", books_slices);
     //
 
     let water = "Water".to_string(); // This is a String
@@ -254,10 +265,28 @@ fn compound_data_types() {
     //fffffff
     // SCLICESSSS :P
     // this is a very fuckass topic so uhhh stay tuned ig(for da fuck ass ness)
+
+    // String vs StringSlices (&str)
+    // Strings are owned string types (not borrowed), they are growable / expandable or decrease them,
+    // u can push or delte them, and mutable
+    // when u declare a string it is gonna be allocated on da heap, these String objects can grow or shrink in size as needed dynamically
+    // u can add to it u can delete from it
+    // This process happens in the backroung in the heap (the dynamically changin of a String,) which is really slow to access becuae
+    // its not fixxed , its wide and big , when u have alot of string alloced and used it is really slow
+    // it is useful if u wana modify ur string data type dynamically
+    // any data type in rust is immutable in rust by default
+    let mut stone_cold: String = String::from("Hell, "); // <- HAS TO BE MUTABLE FOR THE .push_str() FUNCTION TO WORK
+    println!("Stone_Cold says: {}", stone_cold);
+    stone_cold.push_str("Yeah!");
+    println!("Stone_Cold says: {}", stone_cold);
+    // B- &str (String slice) is stored on da stack
+    // it is a refecner to a portion of string on ur code, they are immutable
+    // they are used to refece to string literals or sub strings of string objects
+    //
 }
 
 /*
-   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!|--------------------|##################################################
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------------------|##################################################
    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$|END END END END END |$$compoundDataTypse$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
    #############################|--------------------|!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 */
