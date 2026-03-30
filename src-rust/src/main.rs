@@ -32,6 +32,7 @@ fn guessing_game() {
     //  let mut random_num = random_numInt.to_string();
     let mut random_num = random_numInt + 1 - 1;
     //Tset
+    //test2
     match guess.cmp(&random_num) {
         std::cmp::Ordering::Less => {
             println!("Too small");
@@ -103,7 +104,7 @@ fn primitive_data_types() {
         "Signed integer positive ={}, Signed integer negative ={}, Unsigned Integer ={}",
         x, xneg, y
     );
-
+    let mut wat = ("water", "Water".to_string());
     // int, float, bolean, char
     //Integer
     //Rust has sigened (+ and -), and unsigned integers (only +) tpyes of diffrent sizes:
@@ -214,6 +215,7 @@ fn compound_data_types() {
         [0.1, 0.01, 0.001, 01.213, 0.4, 02.12, 0.2],
         ("water", 021, [32423, 2913, -3121], "b"),
     );
+
     //11th indx of "mix_typles", whcih is a tubple it self, 2nd index of that tubple (which is an array), the 2nd index of that which is -3121
     println!("Water");
     // pirnt1LN2();
@@ -224,7 +226,32 @@ fn compound_data_types() {
     // Slices:
     //let mut WAter: &str = "water";
     //
+    let TestVariable: &String = &"Water".to_string();
+    // let TestVariable: &String = "Water".to_string(); // Requires a &String
+    //
+    // TestVariable = (&mut, "water")
+    //
+    // Slices are contageius  (uninterepted) [1,2,3,4,5] &[1..2], adjecent to oneanotehr, it cant jump inbetween letters
+    let numberslices: &[i32; 5] = &[1, 2, 3, 4, 5];
+    let n2imals_slices: [&str; 3] = ["Tiger,", "Loin", "Crocadile"];
 
+    //
+    println!("Number Slcie Array = {:?}", numberslices);
+    println!("Number Slcie Array = {:?}", n2imals_slices);
+
+    let books_slices = &[
+        &"IT".to_string(),
+        &"ZEN".to_string(),
+        &"Harry Potter".to_string(),
+    ];
+    println!("Books Slcies = {:?}", books_slices)
+    //
+
+    let water = "Water".to_string(); // This is a String
+    let animals_slices: &[&String; 1] = &[&water]; // Now you have a slice of &String
+    println!("{}", animals_slices[0]);
+    // an array slice which elemnts are stringslice
+    //fffffff
     // SCLICESSSS :P
     // this is a very fuckass topic so uhhh stay tuned ig(for da fuck ass ness)
 }
